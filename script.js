@@ -1,27 +1,29 @@
-let users = ['Ваня', 'Иштван',];
-users.push('Оля');
-users.splice(1, 1, 'Петя');
-console.log(users.indexOf('Петя'))
-    ;
-const arr = users.shift(0);
-console.log(arr);
-users.unshift('Маша', 'Паша');
-console.log(users);
+// let num1, num2 = (1, 2
+// function numbers(num1, num2) {
+//     if (num1 > num2) {
+//         console.log('Hello 1')
+//     }
+//     else {
+//         console.log('Hello 2')
+
+//     }
+
+// }
+// numbers()
+
+// let numbers = (a, b) => a + b;
 
 
-let arr2 = ['Ваня', 'Иштван', 'Оля',];
-let removedElement = arr2.splice(1, 1);
-console.log(removedElement);
+// console.log(numbers(4, 5))
 
+function Abc(number, string) {
+    this.number = number;
+    this.string = string;
+}
 
-let str = 'Ваня,Иштван,Оля';
-let arrStr = str.split(',')
-console.log(arrStr)
+let abc1 = new Abc(2, 'privet');
+let abc2 = new Abc(3, 'bb');
 
-
-
-
-
-
-
+console.log(abc1)
+console.log(abc2)
 
